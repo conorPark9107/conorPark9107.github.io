@@ -39,10 +39,10 @@ collections:
     output: true
     permalink: /:collection/:name
 # Java
-collections:
-  java:
-    output: true
-    paramlink: /:collection/:name
+# collections:
+#   java:
+#     output: true
+#     paramlink: /:collection/:name
 
 # BUILD SETTINGS
 markdown: kramdown
