@@ -7,4 +7,4 @@ feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Java]
 ---
 
-{% include blog.html %}
+{% include index.html %}
