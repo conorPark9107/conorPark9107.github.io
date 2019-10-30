@@ -38,9 +38,11 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:name
+# Java
+collections:
   java:
-   output: true
-   paramlink: /:collection/:name
+    output: true
+    paramlink: /:collection/:name
 
 # BUILD SETTINGS
 markdown: kramdown
