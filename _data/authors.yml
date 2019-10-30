@@ -14,6 +14,10 @@ mhagnumdw:
   name: Mhagnumdw
   avatar: "assets/img/avatars/mhagnumdw_avatar.jpg"
   url:
+박종복:
+  name: 박종복
+  avatar: assets/img/park.png
+  url:
 unknown:
   name: Unknown
   avatar:
