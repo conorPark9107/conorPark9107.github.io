@@ -2,6 +2,7 @@
 layout: post
 title: 자바를 활용한 퀵 정렬
 comments: true
+author : 박종복
 tags : [Java, java]
 ---
 
