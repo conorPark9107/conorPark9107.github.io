@@ -1,5 +1,5 @@
 ---
-layout: Page
+layout: page
 title: Java
 permalink: /java/
 feature-img: " assets/img/pexels/computer.jpeg"
