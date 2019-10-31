@@ -1,7 +1,6 @@
 ---
 layout: tags
-title: Tags
+title: 카테고리
 permalink: /tags/
-icon: "fa-tags"
 ---
 
