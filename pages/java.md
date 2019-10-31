@@ -1,6 +1,7 @@
 ---
 layout: Default
 title: Java
+permalink: /java/
 feature-img: " assets/img/pexels/computer.jpeg"
 ---
 
