@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 자바를 활용한 퀵 정렬
+title: TEST
 comments: true
 author : 박종복
 tags : [알고리즘]
