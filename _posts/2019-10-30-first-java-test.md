@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TEST
+title: Java를 활용한 Quick Sort
 comments: true
 author : 박종복
 tags : [알고리즘]
