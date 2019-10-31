@@ -1,6 +1,6 @@
 ---
-layout: page
+layout: default
 title: Java
-feature-img: "assets/img/pexels/computer.jpg"
+feature-img: " assets/img/pexels/computer.jpeg"
 ---
 
