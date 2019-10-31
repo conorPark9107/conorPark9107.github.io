@@ -6,27 +6,7 @@ author : 박종복
 tags : [Java]
 ---
 
-> Java를 활용한 퀵정렬
-
-퀵정렬이란 
-
-- - -
-# JavaScript 코드
-
-{% highlight js %}
-// count to ten
-for (var i = 1; i <= 10; i++) {
-    console.log(i);
-}
-
-// count to twenty
-var j = 0;
-while (j < 20) {
-    j++;
-    console.log(j);
-}
-{% endhighlight %}
-
+## 퀵정렬
 
 # Java 코드
 {% highlight java %}
@@ -64,7 +44,7 @@ public class QuickSort_ver01 {
 		
 		// 분할된 두개의 array를 마저 정리하자.
 		if(start < right) sort(array, start, right); // 같은 방식으로 pivot보다 작은 값 정렬
-		if(end > left) sort(array, left, end);		 // 같은 방식으로 pivot보다 큰 값 정렬github
+		if(end > left) sort(array, left, end);	     // 같은 방식으로 pivot보다 큰 값 정렬github
 	}
 
 	private static void swap(int[] array, int left, int right) {
@@ -76,6 +56,3 @@ public class QuickSort_ver01 {
 }
 
 {% endhighlight %}
-
-
-## 이상으로 OOO을 마칩니다.
