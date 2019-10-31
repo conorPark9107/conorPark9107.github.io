@@ -1,0 +1,34 @@
+---
+layout:post
+title: [Java] 백준 알고리즘 10039번
+author : 박종복
+comments: true
+color: rgb(140, 140, 255)
+tage : [백준 알고리즘]
+---
+
+https://www.acmicpc.net/problem/10039
+
+- - -
+
+{% highlight java %}
+
+import java.util.Scanner;
+
+public class Main_10039 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+        
+		int sum = 0;
+		for(int i=0; i<5; i++) {
+			int score = sc.nextInt();
+			sum += (score < 40)? 40 : score;
+		}
+		
+		int avg = sum / 5;
+		System.out.println(avg);
+		sc.close();
+	}
+}
+{% endhighlight %}
