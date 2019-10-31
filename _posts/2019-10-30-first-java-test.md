@@ -8,7 +8,7 @@ tags : [Java]
 
 > Java를 활용한 퀵정렬
 
-퀵정렬이란 left right ..... TEST TESTTEST
+퀵정렬이란 
 
 - - -
 # JavaScript 코드
@@ -30,28 +30,21 @@ while (j < 20) {
 
 # Java 코드
 {% highlight java %}
-package study.Algorithm;
-
 import java.util.Arrays;
-
 public class QuickSort_ver01 {
 
 	public static void main(String[] args) {
 		int[] array = {66, 10, 1, 34, 5, -10};
-		
 		sort(array, 0, array.length-1);
-		
 		for(int a : array) {
 			System.out.print(" " + a);
 		}
-		
 	}
 
 	private static void sort(int[] array, int start, int end) {
 		int left = start;
 		int right = end;
 		int pivot = array[(left+right)/2];
-		
 		
 		while(left <= right) {
 			System.out.println(Arrays.toString(array) + " pivot : " + pivot);
@@ -69,14 +62,9 @@ public class QuickSort_ver01 {
 			System.out.println();
 		}// while
 		
-		
-		// 분할이 모두 끝나면 while문을 빠져나오게 된다 즉, pivot 중심으로 작은값 큰값이 모두 정렬이 됐다는 말.
-		
 		// 분할된 두개의 array를 마저 정리하자.
 		if(start < right) sort(array, start, right); // 같은 방식으로 pivot보다 작은 값 정렬
 		if(end > left) sort(array, left, end);		 // 같은 방식으로 pivot보다 큰 값 정렬github
-		
-		
 	}
 
 	private static void swap(int[] array, int left, int right) {
