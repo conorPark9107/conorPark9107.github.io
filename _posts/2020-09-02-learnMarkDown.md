@@ -20,9 +20,14 @@ tags : [마크다운,markdown]
 ## 마크다운 문법
 
 ### 제목
-> #1  
-> ##2  
-> ###3  
-> ####4  
-> #####5  
+> # HEADER  
+> ## HEADER    
+> ### HEADER    
+> #### HEADER    
+> ##### HEADER    
 
+# HEADER  
+## HEADER  
+### HEADER  
+#### HEADER  
+##### HEADER  
