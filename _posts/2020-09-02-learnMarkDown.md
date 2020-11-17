@@ -19,12 +19,15 @@ tags : [마크다운,markdown]
 #### 문단
 문단과 문단 사이는 빈줄로 구분한다. - Enter키로 구분!
 > 마크다운
+
 ```
 A
 
 B
 ```
+
 > 결과
+
 A
 
 B
@@ -33,31 +36,37 @@ B
 
 #### 이텔릭체 (기울임 글꼴)
 > 마크다운
+
 ```
-1. *이탤릭체*
-2. _이탤릭체_ 
+*이탤릭체*
+_이탤릭체_ 
 ``` 
+
 > 결과
-1. *이탤릭체*
-2. _이탤릭체_
+
+*이탤릭체*
+_이탤릭체_
 
 ---
 
 #### 제목
 > 마크다운
+
 ```
-1. # HEADER
-2. ## HEADER   
-3. ### HEADER  
-4. #### HEADER   
-5. ##### HEADER
+# HEADER
+## HEADER   
+### HEADER  
+#### HEADER   
+##### HEADER
 ```
+
 > 결과
-1. # HEADER  
-2. ## HEADER  
-3. ### HEADER  
-4. #### HEADER  
-5. ##### HEADER  
+
+# HEADER  
+## HEADER  
+### HEADER  
+#### HEADER  
+##### HEADER  
 
 ---
 
